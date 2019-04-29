@@ -22,6 +22,15 @@
     <Filter Include="DataStructures\HashTables\Outputs">
       <UniqueIdentifier>{41d57355-f328-4587-90be-a61c5f747c3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructures\LinkedLists">
+      <UniqueIdentifier>{f8acd449-8bdc-4ede-839e-11abd44c6b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\Stacks">
+      <UniqueIdentifier>{ea7babe5-e6a5-4e1c-9a65-37650e3f3a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructures\Queues">
+      <UniqueIdentifier>{04b434dd-a607-4a38-87f8-f71c47227071}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructuresAndAlgos.cpp">
@@ -39,6 +48,12 @@
     <ClCompile Include="Utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StacksFromLists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackTester.cpp">
+      <Filter>DataStructures\Stacks</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HashTable.h">
@@ -48,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StacksFromLists.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

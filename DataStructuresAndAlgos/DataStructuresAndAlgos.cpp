@@ -9,16 +9,19 @@ void TestHashTable();
 
 void InsertFindDeleteIntoHashTable();
 
+void StackTester();
+
 int main()
 {
     std::cout << "Hello World!\n"; 
 
 	// Testing the Hash Table
-	TestHashTable();
+	//TestHashTable();
+    
+    StackTester();
 
-	//char inputkey;
+    char inputkey;
 
-	//std::cin >> inputkey; // To block the program till the user presses a key
-
+    std::cin >> inputkey; // To block the program till the user presses a key
 }
 
