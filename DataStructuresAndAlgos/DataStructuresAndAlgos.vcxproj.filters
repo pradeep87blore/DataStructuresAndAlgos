@@ -51,10 +51,10 @@
     <ClCompile Include="StackTester.cpp">
       <Filter>DataStructures\Stacks</Filter>
     </ClCompile>
-    <ClCompile Include="StackFromVectors.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="StackFromLists.cpp">
+      <Filter>DataStructures\Stacks</Filter>
+    </ClCompile>
+    <ClCompile Include="StackFromVectors.cpp">
       <Filter>DataStructures\Stacks</Filter>
     </ClCompile>
   </ItemGroup>
