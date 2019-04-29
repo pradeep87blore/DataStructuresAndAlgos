@@ -1,60 +1,52 @@
-#include "StacksFromLists.h"
+#include "StackFromLists.h"
 #include <iostream>
 
 using namespace::std;
 
 
-StacksFromLists::StacksFromLists()
+StackFromLists::StackFromLists()
 {
 
 }
 
 
-StacksFromLists::~StacksFromLists()
+StackFromLists::~StackFromLists()
 {
 
 }
 
 // Push onto the stack
-void StacksFromLists::Push(const std::string &str)
+void StackFromLists::Push(const std::string &str)
 {
     stackList.push_front(str);
-    count++;
 }
 
 // Pop from the top
-string StacksFromLists::Pop()
+string StackFromLists::Pop()
 {
     if (IsEmpty())
         return std::string(); // Return an empty string
 
     string res = stackList.front();
     stackList.pop_front();
-    count--;
 
     return res;
 }
 
 // Returns true if stack is empty
-bool StacksFromLists::IsEmpty()
+bool StackFromLists::IsEmpty()
 {
-    // list<> doesnt support a count operation. Hence use our internal counter
-    if (count == 0)
-    {
-        return true;
-    }
-
-    return false;
+    return stackList.empty();
 }
 
 // Get the current item count
-int StacksFromLists::GetCount()
+size_t StackFromLists::GetCount()
 {
-    return count;
+    return stackList.size();
 }
 
 // Non-ADT operation, more for a testing / debugging purpose
-void StacksFromLists::PrintStack()
+void StackFromLists::PrintStack()
 {
     if (IsEmpty())
     {

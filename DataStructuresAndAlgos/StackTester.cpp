@@ -1,5 +1,6 @@
 #include <iostream>
-#include "StacksFromLists.h"
+#include "StackFromLists.h"
+#include "StackFromVectors.h"
 #include <string>
 #include <sstream>
 
@@ -7,7 +8,8 @@ using namespace::std;
 
 void TestSentenceReverse()
 {
-    StacksFromLists stack;
+    //StackFromLists stack;
+    StackFromVectors stack;
     //stack.PrintStack();
 
     string testSentence = "Lazy dog jumped over a sleeping fox";
@@ -17,10 +19,12 @@ void TestSentenceReverse()
     do {
         string word;
         stringstrm >> word;
+        if (word.length() < 1) // Dont push blanks
+            continue; 
         stack.Push(word);
     } while (stringstrm);
 
-    cout << "Original sentence: " << testSentence << endl;
+    cout << "Original sentence: \n" << testSentence << endl;
 
     cout << "Reversed sentence: " << endl;
 

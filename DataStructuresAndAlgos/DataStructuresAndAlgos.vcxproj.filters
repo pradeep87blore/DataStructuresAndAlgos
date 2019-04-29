@@ -51,7 +51,10 @@
     <ClCompile Include="StackTester.cpp">
       <Filter>DataStructures\Stacks</Filter>
     </ClCompile>
-    <ClCompile Include="StacksFromLists.cpp">
+    <ClCompile Include="StackFromVectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StackFromLists.cpp">
       <Filter>DataStructures\Stacks</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,7 +68,10 @@
     <ClInclude Include="Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StacksFromLists.h">
+    <ClInclude Include="StackFromVectors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StackFromLists.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
