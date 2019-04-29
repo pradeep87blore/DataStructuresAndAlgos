@@ -57,6 +57,15 @@
     <ClCompile Include="StackFromVectors.cpp">
       <Filter>DataStructures\Stacks</Filter>
     </ClCompile>
+    <ClCompile Include="IntLinkedList.cpp">
+      <Filter>DataStructures\LinkedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="IntLinkedListNode.cpp">
+      <Filter>DataStructures\LinkedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListTester.cpp">
+      <Filter>DataStructures\LinkedLists</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HashTable.h">
@@ -72,6 +81,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="StackFromLists.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntLinkedListNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

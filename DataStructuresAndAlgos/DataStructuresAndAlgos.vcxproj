@@ -154,6 +154,9 @@
     <ClCompile Include="DataStructuresAndAlgos.cpp" />
     <ClCompile Include="HashTable.cpp" />
     <ClCompile Include="HashTableTester.cpp" />
+    <ClCompile Include="IntLinkedList.cpp" />
+    <ClCompile Include="IntLinkedListNode.cpp" />
+    <ClCompile Include="LinkedListTester.cpp" />
     <ClCompile Include="StackFromVectors.cpp" />
     <ClCompile Include="StackFromLists.cpp" />
     <ClCompile Include="StackTester.cpp" />
@@ -162,6 +165,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HashTable.h" />
+    <ClInclude Include="IntLinkedList.h" />
+    <ClInclude Include="IntLinkedListNode.h" />
     <ClInclude Include="StackFromVectors.h" />
     <ClInclude Include="StackFromLists.h" />
     <ClInclude Include="TableEntry.h" />

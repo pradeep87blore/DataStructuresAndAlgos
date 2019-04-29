@@ -11,6 +11,8 @@ void InsertFindDeleteIntoHashTable();
 
 void StackTester();
 
+void TestLinkedLists();
+
 int main()
 {
     std::cout << "Hello World!\n"; 
@@ -18,7 +20,9 @@ int main()
 	// Testing the Hash Table
 	//TestHashTable();
     
-    StackTester();
+    //StackTester();
+
+    TestLinkedLists();
 
     char inputkey;
 
